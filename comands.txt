@@ -1,14 +1,23 @@
 co = checkout
-        
-       
-       
-       
+        ci = commit
+        st = status
+        s = status -s -b
+        br = branch
         last = log -1 HEAD
         discard = checkout --
         unstage = reset HEAD --
-        
+        la = log --oneline --decorate --graph --all
         hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
         type = cat-file -t
         dump = cat-file -p
         
-        
+        Всем спасибо кто был на занятии по гиту! Скидываю что обещал)
+Курс по гиту:
+
+https://drive.google.com/drive/folders/1kLdKKPx7fDjoqsC4L-Kps88H4EalIGCh
+Интерактивная обучалка по веткам:
+https://learngitbranching.js.org/
+
+Визуализация:
+
+http://git-school.github.io/visualizing-git/
